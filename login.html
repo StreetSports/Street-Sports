@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <script>
+
+        function pedro() {
+
+            var usuario = document.getElementById("login").value;
+            var senha = document.getElementById("senha").value;
+
+            if (usuario == "pedro" && senha == "123") {
+                window.location.href = "https://www.google.com.br";
+            }
+
+            else {
+                alert("senha ou email errado");
+            }
+
+
+        }
+
+    </script>
+
+    <style>
+
+
+
+
+        button {
+            background-color: #000000;
+            color: white;
+            font-family: Arial, sans-serif;
+            border-color: #000000ef;
+            width: 300px;
+            height: 45px;
+            border-radius:8px ;
+
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #363636;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .maior {
+            width: 300px;
+            height: 45px;
+            border-color: #3f443fef;
+            outline: none;
+            border-radius: 8px;
+
+
+        }
+
+
+
+
+        #caixa {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(77, 76, 76);
+
+        }
+
+
+
+        .login-container {
+            background-color: rgb(77, 76, 76);
+            padding: 20px;
+            border-radius: 0px;
+
+            width: 362px;
+            height: 390px;
+        }
+
+        #caixao {
+
+            display: flex;
+            width: 781px;
+            height: 430px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border: solid, rgb(77, 76, 76), 5px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        #caixa_logo {
+            background-color: rgb(77, 76, 76);
+            padding: 10px;
+            border-radius: 0px;
+            width: 362px;
+            height: 410px;
+
+
+        }
+
+        a:link {
+
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+
+            color: white;
+            text-decoration: none;
+
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <div id="caixao">
+        <div id="caixa_logo">
+            <img src="LOGO .png" width="100%" height="100%">
+        </div>
+        <div class="login-container">
+            <div id="caixa">
+
+                <img style="width: 150px;" src="icon perfil.webp">
+                <br>
+                <input class="maior" type="text" placeholder="usuario" height="15px" id="login" required>
+                <br>
+
+
+                <input class="maior" type="password" placeholder="senha" id="senha" required>
+                <br>
+
+
+              <a href="feed.html"><button >Entrar</button></a>
+
+                <p>Não tem uma conta? <a class="link" href="Cadastroatual.html">cadastrar</a></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

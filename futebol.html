@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol</title>
+
+    <body>
+    <style>
+body{
+    background-color:#585858;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+} 
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #FFF;
+}
+
+h3 a {
+  color: #FFF;
+}
+
+a {
+  color: #FFF;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align:center;
+  font-size:60px;
+  font-family: 'Bree Serif', 'serif';
+  }
+
+#container4 {
+  margin: 0 auto;
+  color: #000000;
+}
+
+
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color: #757575;
+  }
+
+nav a {
+  display:block;
+  padding:0 10px; 
+  
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; /* the height of the main nav */
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+        <!-- Outro body-->
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #585858;
+            margin: 0;
+            padding: 0;
+         }
+
+         .container {
+           
+           max-width: 800px;
+           margin: 20px auto;
+           padding: 20px;
+           background-color: #fff;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+           border-radius: 16px;
+       }
+        .post-header {
+        display: flex;
+    margin-bottom: 20px;
+    width: 255px;
+    height: 50px;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+        }
+         .post-foto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .icones{
+            display: flex;
+            width: 30px;
+            height: 30px;
+            
+        }
+        .post-footer {
+            margin-top: 20px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <div id="container4">
+        <nav>
+            <ul>
+                <li><a href="feed.html">Home</a></li>
+                <li><a href="#">Esportes</a>
+                <!-- 1 -->
+                <ul>
+                    <li><a href="futebol.html">Futebol</a></li>
+                    <li><a href="basquete.html">Basquete</a></li>
+                    <li><a href="#">Volêi</a></li>
+                    <li><a href="#">Handbool</a></li>
+                </ul>        
+                </li>
+                <li><a href="Perfil.html">Perfil</a>
+                <!-- 2-->
+                <ul>
+                    <li><a href="#">editar perfil</a></li>
+                    <li><a href="#">Inscrições</a></li>
+                    <li><a href="#"></a>
+                  <!-- 2-->
+                    <ul>
+                        <li><a href="#">Privacidade da conta</a></li>
+                        <li><a href="#">Sua atividade</a></li>
+                        <li><a href="#">Configurações</a>
+                            <!-- 3 -->
+                            <ul>
+                                <li><a href="login.html">Sair</a></li>
+                                <li><a href="login.html">Trocar de conta</a></li>
+                                <li><a href="#">Ajuda</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="Sobrenos2.html">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+                
+            </ul>
+        </div>
+    <div class="container">
+        <div class="post-header">
+            <img src="Perfil.img.png" alt="Foto de Perfil">
+            <h2>Nabucodonosor</h2>
+        </div>
+        <div class="post-foto">
+            <p>Alugamos o ginasio para hj, e esta faltando gente, vai ser as  21:30 !!!</p>
+            <img src="quadra-de-futebol-para-torneios-1.jpg" alt="Imagem de Postagem">
+        </div>
+        <div class="icones">
+            <img src="bx-like.svg">
+            <img src="bx-comment-detail.svg">
+            <img src="bx-share-alt.svg">
+         </div>
+         <div class="post-footer">
+            <p>Quem tiver interesse chama no pv!!</p>
+           
+         </div>
+         <br>
+         <hr>
+         <br>
+         <div class="post-header">
+            <img src="Perfil.img.png" alt="Foto de Perfil">
+            <h2>Beltessazar</h2>
+        </div>
+        <div class="post-foto">
+            <p>Quem anima de jogar um basquete hj?</p>
+            <img src="post-3.jpg" alt="Imagem de Postagem">
+        </div>
+        <div class="icones">
+            <img src="bx-like.svg">
+            <img src="bx-comment-detail.svg">
+            <img src="bx-share-alt.svg">
+         </div>
+         <div class="post-footer">
+            <p>Vou esta la as 19hrs</p>
+           
+         </div>
+         <br>
+         <hr>
+         <br>
+         <div class="post-header">
+            <img src="Perfil.img.png" alt="Foto de Perfil">
+            <h2>Sadraque</h2>
+        </div>
+        <div class="post-foto">
+            <p>Vou com um time de amigos jogar,forme seu time e venha contra o meu!</p>
+            <img src="post-4.jpg" alt="Imagem de Postagem">
+        </div>
+        <div class="icones">
+            <img src="bx-like.svg">
+            <img src="bx-comment-detail.svg">
+            <img src="bx-share-alt.svg">
+         </div>
+         <div class="post-footer">
+            <p>Vms esta la as 19:30,quem tiver interesse chama no pv!!</p>
+           
+         </div>
+         <br>
+         <hr>
+         <br>
+         <div class="post-header">
+            <img src="Perfil.img.png" alt="Foto de Perfil">
+            <h2>Mesaque</h2>
+        </div>
+        <div class="post-foto">
+            <p>Alguem ai anima um basquetezin esse sabado as 18hrs?</p>
+            <img src="post-5.jpg" alt="Imagem de Postagem">
+        </div>
+        <div class="icones">
+            <img src="bx-like.svg">
+            <img src="bx-comment-detail.svg">
+            <img src="bx-share-alt.svg">
+         </div>
+         <div class="post-footer">
+            <p>quem tiver interesse chama no pv!!</p>
+           
+         </div>
+         <br>
+         <hr>
+         <br>
+         <div class="post-header">
+            <img src="perfil.img.png" alt="Foto de Perfil">
+            <h2>Abede-Nego</h2>
+        </div>
+        <div class="post-foto">
+            <p>Basquete na prai amanhã bora?</p> 
+            <img src="campo-society-1.jpg" alt="Imagem de Postagem">
+        </div>
+        <div class="icones">
+            <img src="bx-like.svg">
+            <img src="bx-comment-detail.svg">
+            <img src="bx-share-alt.svg">
+         </div>
+         <div class="post-footer">
+            <p>Quem tiver interesse chama no pv!!</p>
+           
+         </div>
+    </div>   
+    
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+
+body {
+  background: #212121;
+  font-size:22px;
+  line-height: 32px;
+  color: #ffffff;
+  word-wrap:break-word !important;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+} 
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #FFF;
+}
+
+h3 a {
+  color: #FFF;
+}
+
+a {
+  color: #FFF;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align:center;
+  font-size:60px;
+  font-family: 'Bree Serif', 'serif';
+  }
+
+#container4 {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color: #757575;
+  }
+
+nav a {
+  display:block;
+  padding:0 10px; 
+  color:#FFF;
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #000000; 
+}
+
+/* 1*/
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; /* 1 */
+}
+  
+/* 1 */
+nav ul li:hover > ul {
+  display:inherit;
+}
+  
+/* 1 */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* 3 */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+/* 1 */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    * {
+        margin: 0%;
+    }
+
+    
+
+    #Caixao{
+        padding-left: 30px;
+        display: flex;
+        height: 827px;
+        width: 100%;
+}
+
+    #Perfil{
+       
+        width: 500px;
+        height: 1033px;
+        border-right: solid, black, 10px;
+        
+    background-color: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display:flex;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+color: black;
+}
+
+    #Postagem{
+        padding-left: 100px;
+
+}
+
+    .foto_redonda{
+    border-radius: 200px;
+    border: solid, black, 2px;
+    width: 200px;
+}
+
+.posts{
+    width: 1000px;
+    height: 500px;
+    background-color: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display:flex;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+a:link{
+            text-decoration: none;
+            color: white;
+
+        }
+        a:visited{
+            text-decoration:none;
+            color: white;
+        }
+        a:hover{
+            color:rgb(105, 105, 105)
+        }
+.img {
+    width: 950px;
+    height: 450px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icones{
+    padding-left: 148px;
+   display: flex;
+
+            width: 30px;
+            height: 30px;
+            padding-right: 1068px;
+            
+        }
+</style>
+</head>
+
+<body>
+
+
+    <body>
+        <div id="container4">
+            <nav>
+                <ul>
+                    <li><a href="feed.html">Home</a></li>
+                    <li><a href="#">Esportes</a>
+                    <!-- 3-->
+                    <ul>
+                        <li><a href="futebol.html">Futebol</a></li>
+                        <li><a href="basquete.html">Basquete</a></li>
+                        <li><a href="#">Volêi</a></li>
+                        <li><a href="#">Handbool</a></li>
+                    </ul>        
+                    </li>
+                    <li><a href="Perfil.html">Perfil</a>
+                    <!-- 2 -->
+                    <ul>
+                        <li><a href="#">editar perfil</a></li>
+                        <li><a href="#">Inscrições</a></li>
+                        <li><a href="#"></a>
+                      <!-- 1 -->
+                        <ul>
+                            <li><a href="#">Privacidade da conta</a></li>
+                            <li><a href="#">Sua atividade</a></li>
+                            <li><a href="#">Configurações</a>
+                                <!-- 4 -->
+                                <ul>
+                                    <li><a href="login.html">Sair</a></li>
+                                    <li><a href="login.html">Trocar de conta</a></li>
+                                    <li><a href="#">Ajuda</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="Sobrenos2.html">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                    
+                </ul>
+            </div>
+    <br>
+
+    <div id="Caixao">
+
+        <div id="Perfil">
+            
+            <div style="text-align: center;"> <!--DIV PARA FOTO DE PERFIL-->
+                <img class="foto_redonda" src="perfil ft.png">
+                <h2>Joabe</h2>
+            </div>
+            <br>
+            
+            <div style="display: flex; justify-content: space-around; "> <!--dados do perfil-->
+                <h4>seguidores: 897ㅤㅤ </h4> <h4>participações: 53</h4>
+            </div>   
+
+            <br>
+
+            <div ><!--DIV PARA A BIO-->
+
+    
+           <p style="text-align: left;"><b> Bio:</b><br>
+            🏋️‍♂️ Professor de Educação Física<br>
+💪 Transformando sedentários em atletas do dia a dia<br>
+📚 Dicas de treino e hábitos saudáveis<br>
+🔥 Vamos juntos melhorar sua qualidade de vida!<br>
+📩 [DM para treinar comigo]<br>
+⚡ Motivação e treino para um corpo e mente saudáveis<br>
+📍 Brasilia | Candango<br>
+           </p>
+
+            </div>
+
+        </div>
+
+        <div id="Postagem">
+            
+            <div class="posts">
+                <div > 
+<img class="img" src="1_whatsapp_image_2023_03_27_at_12_09_20-28485839.jpeg">
+   
+     </div>
+     <div class="icones">
+        <img src="bx-like.svg">
+        <img src="bx-comment-detail.svg">
+        <img  src="bx-share-alt.svg"> 
+        </div>
+                       
+            </div>
+            <br>
+            <div class="posts">
+                <div > 
+                    <img class="img" src="Foto de velho.jpg">
+                       
+                         </div>
+                         <div class="icones">
+                            <img src="bx-like.svg">
+                            <img src="bx-comment-detail.svg">
+                            <img  src="bx-share-alt.svg"> 
+                            </div>
+                                           
+                                </div> 
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
